@@ -18,5 +18,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/cottage-charm-templates/' 
+  base: '/cottage-charm-templates/'
 }));
