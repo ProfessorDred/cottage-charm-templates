@@ -4,6 +4,11 @@ name: Deploy static content to Pages
 on:
   push:
     branches: ['main']
+
+permissions:
+  id-token: write 
+  contents: write 
+  pages: write    
     
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
