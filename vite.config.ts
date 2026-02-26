@@ -18,4 +18,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: '/cottage-charm-templates/' // Replace with your GitHub repo name
 }));
